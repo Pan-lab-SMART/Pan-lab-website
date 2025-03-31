@@ -1,9 +1,9 @@
 ---
 ---
 
-# Pan-lab-SMART's Website
+# Pan-lab's Website
 
-An engaging 1-3 sentence description of your lab.
+We are Pan lab from IBABI of [SMART](https://smart.org.cn/en/）, focusing on single particle Cryo-EM.
 
 {% include section.html %}
 
@@ -11,7 +11,7 @@ An engaging 1-3 sentence description of your lab.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Mainly using structural biology, biochemistry, physiology and other means, engaged in the study of the working mechanism and drug action mechanism of membrane proteins related to major diseases. At present, the research direction includes membrane proteins related to metabolic diseases and proteins related to tumor-immunity.
 
 {%
   include button.html
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Projects.
 
 {%
   include button.html
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Meet the team!
 
 {%
   include button.html
