@@ -3,7 +3,7 @@
 
 # Pan-lab's Website
 
-We are Pan lab from IBABI of [SMART](https://smart.org.cn/en/）, focusing on single particle Cryo-EM.
+We are Pan lab from IBABI of [SMART](https://smart.org.cn/en/), focusing on single particle Cryo-EM.
 
 {% include section.html %}
 
