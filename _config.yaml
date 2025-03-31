@@ -2,8 +2,8 @@
 title: Pan-lab-SMART
 subtitle: See the small and know the large
 description: Single particle CRYO-EM
-header: images/background.jpg
-footer: images/background.jpg
+header: images/header.png
+footer: images/footer.png
 proofer: false
 
 # site social media and other links
