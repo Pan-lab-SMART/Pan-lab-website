@@ -1,8 +1,8 @@
 ---
-name: Jane Smith
-image: images/photo.jpg
+name: Pan Xiaojing
+image: images/xiaojing.jpg
 role: principal-investigator
-affiliation: University of Colorado
+affiliation: Shenzhen medical acedamy of research and translation 
 aliases:
   - J. Smith
   - J Smith
