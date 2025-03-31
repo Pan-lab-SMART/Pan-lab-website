@@ -1,7 +1,7 @@
 ---
-name: John Doe
+name: Li Menglu
 image: images/photo.jpg
-role: phd
+role: Co-Principal Investigator
 group: alum
 links:
   github: john-doe
