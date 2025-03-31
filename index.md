@@ -4,6 +4,17 @@
 # Pan-lab's Website
 
 We are Pan lab from IBABI of [SMART](https://smart.org.cn/en/), focusing on single particle Cryo-EM.
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge"></div>
+      <img src='images/Team-2025-1.jpg' alt="sym" style="width: 80%; max-width: 800px; display: block; margin: 0 auto;">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+    {% include section.html %}
+  </div>
+</div>
 
 {% include section.html %}
 
