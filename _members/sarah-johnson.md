@@ -1,11 +1,11 @@
 ---
-name: Sarah Johnson
-image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+name: Dingrui Liu
+image: images/dingrui.jpg
+description: PhD student
+role: student
 links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
+  email: liudingrui@smart.org.cn
+  page: [liudingrui](https://liudingrui9.github.io/Dingrui/)
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+PhD student of 2024 from SMART-Westlake joint PhD programme. My research interest mainly focus on interapplication of Cryo-Electron Microscopy and Bioinformatics. You can find my CV here:[Dingrui's Curriculum Vitae](assets/LIUDINGRUI CV.pdf).
