@@ -5,7 +5,7 @@ description: PhD student
 role: student
 links:
   orcid: 0000-0002-3472-503X
-  page: https://liudingrui9.github.io/Dingrui/
+  home-page: https://liudingrui9.github.io/Dingrui/
   page_text: Personal Page
   cv: Pan-lab-website/assets/LIUDINGRUI CV.pdf
   cv_text: Dingrui's Curriculum Vitae
