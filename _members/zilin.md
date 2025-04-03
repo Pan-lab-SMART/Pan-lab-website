@@ -1,6 +1,6 @@
 ---
 name: Shen Zilin
-image: images/zilin.jpg
+image: images/zilin-1.jpg
 role: PhD Student
 group: Student
 links:
