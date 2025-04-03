@@ -1,6 +1,6 @@
 ---
 name: Li Menglu
-image: images/photo.jpg
+image: images/menglu.jpg
 role: Co-Principal Investigator
 group: alum
 links:
