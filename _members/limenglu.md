@@ -1,10 +1,12 @@
 ---
 name: Li Menglu
 image: images/menglu.jpg
-role: Co-Principal Investigator
-group: alum
+role: Junior Investigator
+affiliation: Shenzhen medical acedamy of research and translation 
+
 links:
-  github: john-doe
+  home-page: 
+  orcid: https://orcid.org/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Dr. Menglu Li, Junior Investigator at Shenzhen Medical Academy of Research and Translation (SMART), recipient of.
