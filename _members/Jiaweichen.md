@@ -8,4 +8,5 @@ links:
 
 ---
 
-PhD student of class 2024 from [SMART-Westlake joint PhD programme](https://smart.org.cn/en/Education-and-Exchanges/Edu/Graduate/Study/Admission/index.html). 
+Jiawei holds a Bachelor's degree in pharmaceutical sciences from Tianjin University and a Master's degree in chemistry from Tsinghua University. He joined Pan Lab in the summer of 2024 through the Tsinghua-Smart program to engage in single-particle cryo-electron microscopy research. 
+He self-identifies as an interesting individual, and currently, his most fulfilling accomplishment is the completion of the LEGO set gifted by Thermo Fisher.
