@@ -1,6 +1,6 @@
 ---
 name: Dingrui Liu
-image: images/dingrui.jpg
+image: images/dingrui3.jpg
 role: student
 affiliation: Shenzhen medical acedamy of research and translation 
 
