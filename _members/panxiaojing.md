@@ -1,6 +1,6 @@
 ---
 name: Pan Xiaojing
-image: images/xiaojing1.jpg
+image: images/xiaojing1.JPG
 role: principal-investigator
 affiliation: Shenzhen medical acedamy of research and translation 
 
