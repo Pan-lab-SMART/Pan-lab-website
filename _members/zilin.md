@@ -10,4 +10,4 @@ links:
   orcid: https://orcid.org/
 ---
 
-PhD student of class 2020 from Tsinghua University.
+PhD student of class 2020 from Tsinghua University.Distinguished owner of Xiaomi SU7 Pro ![xiaomi](
