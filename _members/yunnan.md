@@ -7,4 +7,4 @@ affiliation: Shenzhen medical acedamy of research and translation
 
 ---
 
-Dr. Yunnan Hou, Postdoc at Shenzhen Medical Academy of Research and Translation (SMART). Esteemed owner of [Zeekr 001](images/zeekr.png).
+Dr. Yunnan Hou, Postdoc at Shenzhen Medical Academy of Research and Translation (SMART). Esteemed owner of [Zeekr 001](Pan-lab-website/images/zeekr.png).
