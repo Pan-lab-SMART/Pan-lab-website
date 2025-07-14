@@ -10,7 +10,7 @@
   <div class='paper-box-image'>
     <div>
       <div class="badge"></div>
-      <img src='images/teams.JPG' alt="sym" style="width: 80%; max-width: 800px; display: block; margin: 0 auto;">
+      <img src='images/panteam.jpg' alt="sym" style="width: 80%; max-width: 800px; display: block; margin: 0 auto;">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
