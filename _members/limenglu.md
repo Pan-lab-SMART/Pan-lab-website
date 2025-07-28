@@ -1,7 +1,7 @@
 ---
 name: Li Menglu
 image: images/menglu.jpg
-role: Junior Investigator
+role: associate-researcher
 affiliation: Shenzhen medical acedamy of research and translation 
 
 links:
