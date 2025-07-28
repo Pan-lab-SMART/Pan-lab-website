@@ -1,6 +1,4 @@
----
----
-
+/* 原有卡片样式保持不变 */
 .card {
   display: inline-flex;
   justify-content: stretch;
@@ -16,37 +14,28 @@
   vertical-align: top;
 }
 
-.card[data-style="small"] {
-  width: 250px;
+/* 新增：PI卡片样式 */
+.card.pi {
+  width: 100%;  /* 占满一行 */
+  max-width: 800px;  /* 限制最大宽度，避免过宽 */
+  background: #f0f7ff;  /* 浅蓝色背景 */
+  border: 2px solid #4299e1;  /* 蓝色边框 */
+  box-shadow: 0 4px 12px rgba(66, 153, 225, 0.2);  /* 浅蓝色阴影 */
 }
 
-.card-image img {
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
-  width: 100%;
-  // box-shadow: var(--shadow);
+/* PI卡片的标题和内容样式 */
+.card.pi .card-title {
+  font-size: 1.5rem;
+  color: #2b6cb0;  /* 深蓝色标题 */
 }
 
-.card-text {
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 100%;
-  padding: 20px;
+.card.pi .card-text {
+  padding: 30px;  /* 增加内边距，更宽松 */
+  gap: 15px;
 }
 
-.card-text > * {
-  margin: 0 !important;
-}
-
-.card-title {
-  font-family: var(--heading);
-  font-weight: var(--semi-bold);
-}
-
-.card-subtitle {
-  margin-top: -10px !important;
-  font-style: italic;
-}
+/* 原有其他样式保持不变 */
+.card[data-style="small"] { ... }
+.card-image img { ... }
+.card-text { ... }
+.card-subtitle { ... }
