@@ -1,7 +1,7 @@
 ---
 name: Xu Li
 image: images/xuli.png
-role: Junior Investigator
+role: associate-researcher
 affiliation: Shenzhen medical acedamy of research and translation 
 
 links:
