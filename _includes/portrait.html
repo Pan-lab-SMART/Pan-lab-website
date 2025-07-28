@@ -9,12 +9,18 @@
 
 {% assign type = site.data.types[member.role] %}
 
+<!-- 新增：判断是否为PI，添加专属样式类 -->
+{% assign portrait_style = "" %}
+{% if member.role == "principal-investigator" %}
+  {% assign portrait_style = "pi" %}
+{% endif %}
+
 <div class="portrait-wrapper">
   <a
     {% if page.slug != member.slug %}
       href="{{ member.url | relative_url | uri_escape }}"
     {% endif %}
-    class="portrait"
+    class="portrait {{ portrait_style }}"  <!-- 应用PI样式类 -->
     data-style="{{ include.style }}"
     aria-label="{{ member.name | default: "member link" | regex_strip }}"
   >
@@ -24,27 +30,34 @@
 
     <img
       src="{{ member.image | relative_url | uri_escape }}"
-      class="portrait-image"
+      class="portrait-image {{ portrait_style }}"  <!-- 图片也可添加PI样式 -->
       alt="member portrait"
       loading="lazy"
       {% include fallback.html %}
     >
 
     {% if member.name %}
-      <span class="portrait-name">
+      <span class="portrait-name {{ portrait_style }}">
         {{ member.name }}
       </span>
     {% endif %}
 
     {% if member.description or type %}
-      <span class="portrait-description">
+      <span class="portrait-description {{ portrait_style }}">
         {{ member.description | default: type.description }}
       </span>
     {% endif %}
 
     {% if member.affiliation %}
-      <span class="portrait-affiliation">
+      <span class="portrait-affiliation {{ portrait_style }}">
         {{ member.affiliation }}
+      </span>
+    {% endif %}
+
+    <!-- 新增：显示PI的bio信息（仅PI可见） -->
+    {% if member.role == "principal-investigator" and member.bio %}
+      <span class="portrait-bio">
+        {{ member.bio }}
       </span>
     {% endif %}
   </a>
