@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Mainly using structural biology, biochemistry, physiology and other means, engaged in the study of the working mechanism and drug action mechanism of membrane proteins related to major diseases. At present, the research direction includes membrane proteins related to metabolic diseases and proteins related to tumor-immunity.
 
 {% include section.html %}
 
