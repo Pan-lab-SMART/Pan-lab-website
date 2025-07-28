@@ -461,32 +461,60 @@
   <section class="background" data-size="page">
     <div class="float">
   
+<!-- 新增：判断是否为PI，添加专属样式类 -->
+
 <div class="portrait-wrapper">
-  <a class="portrait pi" data-style="" aria-label="Pan Xiaojing">
+  &lt;a
+    
+    class="portrait pi"  <!-- 应用PI样式类 -->
+    data-style=""
+    aria-label="Pan Xiaojing"
+  &gt;
     
       <i class="icon fa-solid fa-microscope"></i>
     
 
-    <img src="/images/xiaojing1.JPG" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    &lt;img
+      src="/images/xiaojing1.JPG"
+      class="portrait-image pi"  <!-- 图片也可添加PI样式 -->
+      alt="member portrait"
+      loading="lazy"
+      onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+
+    &gt;
 
     
-      <span class="portrait-name">
+      <span class="portrait-name pi">
         Pan Xiaojing
       </span>
     
 
     
-      <span class="portrait-description">
+      <span class="portrait-description pi">
         Principal Investigator
       </span>
     
 
     
-      <span class="portrait-affiliation">
+      <span class="portrait-affiliation pi">
         Shenzhen Medical Academy of Research and Translation
       </span>
     
-  </a>
+
+    <!-- 新增：显示PI的bio信息（仅PI可见） -->
+    
+      <span class="portrait-bio">
+        Dr. Xiaojing Pan, Principal Investigator at Shenzhen Medical Academy of Research and Translation (SMART), recipient of the National Natural Science Foundation of China (NSFC) Excellent Young Scientists Fund. Since her postdoctoral work, she has successively received funding support including:
+- The "Postdoctoral Innovative Talent Support Program" from China Postdoctoral Science Foundation
+- NSFC Young Scientists Fund
+- NSFC General Program
+- Beijing Municipal Science &amp; Technology Commission's "Rising Star in Science and Technology" Award.
+
+Dr. Pan has published 5 first-author (including co-first) papers in Science and 8 corresponding-author (including co-corresponding) papers in PNAS and Nature Communications.
+
+      </span>
+    
+  &lt;/a&gt;
 </div>
 
 <div>
