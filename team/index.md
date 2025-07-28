@@ -17,11 +17,11 @@ Meet the Pan lab team! If you are interested in our research, feel free to conta
   data="members" 
   component="portrait" 
   filter="role == 'principal-investigator'" 
-  style="pi"  <!-- 新增style参数，用于自定义样式 -->
+  style="pi"  <!-- 传递样式参数给列表 -->
 %}
 
 ## {% include icon.html icon="fa-solid fa-users" %}Lab Members
-<!-- 其他成员区域，保持原有多列布局 -->
+<!-- 其他成员区域，保持原有布局 -->
 {% include list.html 
   data="members" 
   component="portrait" 
