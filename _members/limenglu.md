@@ -9,4 +9,4 @@ links:
   orcid: https://orcid.org/
 ---
 
-Dr. Menglu Li, Junior Investigator at Shenzhen Medical Academy of Research and Translation (SMART), recipient of.
+Dr. Menglu Li, Junior Investigator at Shenzhen Medical Academy of Research and Translation (SMART).
