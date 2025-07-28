@@ -14,11 +14,17 @@ $one: 500px;
   margin: 40px 0;
 }
 
+/* PI区域网格样式（1列布局） */
+.grid.pi {
+  --repeat: 1; /* 强制1列 */
+  justify-items: center; /* 水平居中 */
+}
+
+/* 原有样式保持不变 */
 .grid > * {
   min-width: 0;
   min-height: 0;
   width: 100%;
-  // max-height: 50vh;
   margin: 0 !important;
 }
 
