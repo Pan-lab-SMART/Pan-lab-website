@@ -10,23 +10,51 @@ nav:
 {% include section.html %}
 
 ## {% include icon.html icon="fa-solid fa-microscope" %}Principal Investigator
-<!-- 使用特殊样式显示PI -->
-<div class="pi-container">
-  {% include list.html 
-    data="members" 
-    component="portrait" 
-    filter="role == 'principal-investigator'" 
-  %}
-</div>
+
+{% include list.html 
+  data="members" 
+  component="portrait" 
+  filter="role == 'principal-investigator'" 
+%}
 
 {% include section.html %}
 
-## {% include icon.html icon="fa-solid fa-users" %}Lab Members
-<!-- 其他成员保持原有布局 -->
+## {% include icon.html icon="fa-solid fa-flask" %}Associate Researchers
+
 {% include list.html 
-    data="members" 
-    component="portrait" 
-    filter="role != 'principal-investigator'" 
+  data="members" 
+  component="portrait" 
+  filter="role == 'associate-researcher'" 
+%}
+
+{% include section.html %}
+
+## {% include icon.html icon="fa-solid fa-graduation-cap" %}Postdoctoral Researchers
+
+{% include list.html 
+  data="members" 
+  component="portrait" 
+  filter="role == 'postdoc'" 
+%}
+
+{% include section.html %}
+
+## {% include icon.html icon="fa-solid fa-vial" %}Research Assistants
+
+{% include list.html 
+  data="members" 
+  component="portrait" 
+  filter="role == 'research-assistant'" 
+%}
+
+{% include section.html %}
+
+## {% include icon.html icon="fa-solid fa-user-graduate" %}Students
+
+{% include list.html 
+  data="members" 
+  component="portrait" 
+  filter="role == 'student'" 
 %}
 
 {% include section.html background="images/background.jpg" dark=true %}
