@@ -15,8 +15,14 @@
   width: 175px;
   max-width: calc(100% - 20px - 20px);
   text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;  /* 添加过渡效果 */
 }
 
+.portrait:hover {
+  transform: translateY(-5px);  /* 悬停时轻微上浮 */
+}
+
+/* 原有样式保持不变 */
 .portrait[data-style="small"] {
   width: 100px;
 }
@@ -59,6 +65,7 @@
   border-radius: 999px;
   object-fit: cover;
   box-shadow: var(--shadow);
+  border: 2px solid transparent;  /* 为PI预留边框 */
 }
 
 .portrait[data-style="tiny"] .portrait-image {
@@ -76,4 +83,51 @@
   .portrait-affiliation {
     display: none;
   }
+}
+
+/* 新增：PI专属样式 */
+.portrait.pi {
+  width: 100%;  /* 占满容器宽度 */
+  max-width: 800px;  /* 限制最大宽度 */
+  background: #f0f7ff;  /* 浅蓝色背景 */
+  border-radius: var(--rounded);
+  padding: 2rem;  /* 增加内边距 */
+  box-shadow: 0 4px 12px rgba(66, 153, 225, 0.2);  /* 蓝色阴影 */
+  margin: 2rem auto;  /* 上下间距，水平居中 */
+}
+
+.portrait.pi .icon {
+  left: 2rem;  /* 调整图标位置 */
+  top: 2rem;
+  width: 40px;  /* 放大图标 */
+}
+
+.portrait.pi .portrait-image {
+  width: 250px;  /* 放大PI头像 */
+  border-color: #4299e1;  /* 蓝色边框 */
+}
+
+.portrait.pi .portrait-name {
+  font-size: 1.5rem;  /* 增大字体 */
+  color: #2b6cb0;  /* 深蓝色 */
+  margin-top: 1rem;
+}
+
+.portrait.pi .portrait-description {
+  font-size: 1.1rem;  /* 增大职位字体 */
+  color: #2b6cb0;  /* 深蓝色 */
+  margin-bottom: 0.5rem;
+}
+
+.portrait.pi .portrait-affiliation {
+  font-size: 1rem;  /* 增大单位字体 */
+  margin-bottom: 1rem;
+}
+
+/* 新增：PI的bio信息样式 */
+.portrait-bio {
+  text-align: left;  /* 左对齐文本 */
+  line-height: 1.6;  /* 增加行高 */
+  color: var(--text);  /* 使用主题文本颜色 */
+  margin-top: 1rem;  /* 与上方内容间距 */
 }
