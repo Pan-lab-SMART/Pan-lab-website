@@ -461,32 +461,49 @@
   <section class="background" data-size="page">
     <div class="float">
   
+<!-- 新增：判断是否为PI，添加专属样式类 -->
+
 <div class="portrait-wrapper">
-  <a class="portrait" data-style="" aria-label="Zhiteng Luo">
+  &lt;a
+    
+    class="portrait "  <!-- 应用PI样式类 -->
+    data-style=""
+    aria-label="Zhiteng Luo"
+  &gt;
     
       <i class="icon fa-solid fa-glasses"></i>
     
 
-    <img src="/images/luo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    &lt;img
+      src="/images/luo.jpg"
+      class="portrait-image "  <!-- 图片也可添加PI样式 -->
+      alt="member portrait"
+      loading="lazy"
+      onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+
+    &gt;
 
     
-      <span class="portrait-name">
+      <span class="portrait-name ">
         Zhiteng Luo
       </span>
     
 
     
-      <span class="portrait-description">
+      <span class="portrait-description ">
         Postdoctoral Researcher
       </span>
     
 
     
-      <span class="portrait-affiliation">
+      <span class="portrait-affiliation ">
         Shenzhen medical acedamy of research and translation
       </span>
     
-  </a>
+
+    <!-- 新增：显示PI的bio信息（仅PI可见） -->
+    
+  &lt;/a&gt;
 </div>
 
 <div>
