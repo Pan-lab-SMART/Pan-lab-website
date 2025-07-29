@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-If you are interested in our research, please feel free to contact us!
+We are hiring! Theoretically, there will be 1-2 PhD position for class 2026 both in [SMART-Tsinghua University programme and SMART-Westlake University programme](https://smart.org.cn/Education-and-Exchanges/Edu/Graduate/Study/Admission/index.html). You can also directly contact Prof. Pan xiaojing [email](panxj@smart.org.cn) to acquire open positions for Associate Researcher/Posdoc/Research Assistant. If you are interested in our research, please feel free to contact us!
 
 {%
   include button.html
@@ -29,7 +29,7 @@ If you are interested in our research, please feel free to contact us!
 {%
   include figure.html
   image="images/office-1.jpg"
-  caption="contact us"
+  caption="We are hiring!"
 %}
 
 {% endcapture %}
@@ -38,8 +38,8 @@ If you are interested in our research, please feel free to contact us!
 
 {%
   include figure.html
-  image="images/office-2.jpg"
-  caption="Please join us"
+  image="images/office-3.jpg"
+  caption="Come and join us!"
 %}
 
 {% endcapture %}
@@ -49,15 +49,15 @@ If you are interested in our research, please feel free to contact us!
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Everyone who is interested in our research is welcomed
+[Shenzhen Medical Academy of Research and Translation](https://smart.org.cn/en/)
 {% endcapture %}
 
 {% capture col2 %}
-Please directly contact our PI [Prof.Pan](https://panxiaojing-lab.com/members/panxiaojing.html)
+Please directly contact our PI [Prof.Pan Xiaojing](https://panxiaojing-lab.com/members/panxiaojing.html)
 {% endcapture %}
 
 {% capture col3 %}
-[Join us!](panxj@smart.org.cn)
+[Here is the email address!](panxj@smart.org.cn)
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
