@@ -1,5 +1,5 @@
 ---
-name: Jixing Zhang
+name: Zhang Jixing
 image: images/jixing.jpg
 role: research-assistant
 affiliation: Shenzhen medical acedamy of research and translation 
