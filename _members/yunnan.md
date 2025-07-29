@@ -1,6 +1,6 @@
 ---
-name: Yunnan Hou
-image: images/yunnan.JPG
+name: Hou Yunnan 
+image: images/yunnan.jpg
 role: postdoc
 affiliation: Shenzhen medical acedamy of research and translation 
 
