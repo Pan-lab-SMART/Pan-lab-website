@@ -1,7 +1,7 @@
 ---
 name: Linghui Xu
 image: images/linghui.jpg
-role: associate-researcher
+role: postdoc
 affiliation: Shenzhen medical acedamy of research and translation 
 
 links:
