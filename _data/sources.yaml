@@ -1,23 +1,28 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+- id: doi:10.1038/s41467-024-49393-9
+  title: "Structural basis for urate recognition and apigenin inhibition of human GLUT9"
+  authors: "Zilin Shen, Li Xu, Tong Wu, Huan Wang, Qifan Wang, Xiaofei Ge, Fang Kong, Gaoxingyu Huang & Xiaojing Pan"
+  journal: "Nature Communications"
+  date: "2024-06-12"
+  volume: "15"
+  pages: "5039"
+  doi: "10.1038/s41467-024-49393-9"
+  abstract: |
+    Urate, the physiological form of uric acid and a potent antioxidant in serum, plays a pivotal role in scavenging reactive oxygen species. Yet excessive accumulation of urate, known as hyperuricemia, is the primary risk factor for the development of gout. The high-capacity urate transporter GLUT9 represents a promising target for gout treatment. Here, we present cryo-electron microscopy structures of human GLUT9 in complex with urate or its inhibitor apigenin at overall resolutions of 3.5 Å and 3.3 Å, respectively. In both structures, GLUT9 exhibits an inward open conformation, wherein the substrate binding pocket faces the intracellular side. These structures unveil the molecular basis for GLUT9’s substrate preference of urate over glucose, and show that apigenin acts as a competitive inhibitor by occupying the substrate binding site. Our findings provide critical information for the development of specific inhibitors targeting GLUT9 as potential therapeutics for gout and hyperuricemia.
+  image: "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-49420-9/MediaObjects/41467_2024_49420_Fig1_HTML.png?as=webp" 
+  pdf: "../assets/papers/s41467-024-49420-9.pdf"
+  links:
+    - type: journal
+      link: "https://www.nature.com/articles/s41467-024-49420-9"
+    - type: pdf
+      link: "https://www.nature.com/articles/s41467-024-49420-9" 
+  metrics:
+    accesses: 8554
+    citations: 19
+    altmetric: 6
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - "structural biology"
+    - "transporters"
+    - "drug discovery"
+  type: "paper"
+  highlight: true
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
