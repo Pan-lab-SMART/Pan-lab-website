@@ -57,3 +57,95 @@
     margin-bottom: 20px;
   }
 }
+/* ===== 团队页面专属样式 ===== */
+/* 角色导航栏样式 */
+.role-navigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 30px 0;
+  padding: 15px 0;
+  border-bottom: 2px solid var(--primary-light);
+  border-top: 2px solid var(--primary-light);
+}
+
+.role-link {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: var(--semi-bold);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* 不同角色不同颜色 */
+  &.pi-link {
+    background: #f0f7ff;
+    color: #2b6cb0;
+    border: 2px solid #4299e1;
+  }
+  
+  &.associate-link {
+    background: #fff5f0;
+    color: #c05621;
+    border: 2px solid #ed8936;
+  }
+  
+  &.postdoc-link {
+    background: #f8f0ff;
+    color: #6b46c1;
+    border: 2px solid #9f7aea;
+  }
+  
+  &.assistant-link {
+    background: #f0fff4;
+    color: #276749;
+    border: 2px solid #48bb78;
+  }
+  
+  &.student-link {
+    background: #fffaf0;
+    color: #b7791f;
+    border: 2px solid #ed8936;
+  }
+}
+
+/* 角色标题样式 */
+.role-header {
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background: var(--primary);
+  }
+}
+
+/* 平滑滚动效果 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 高亮动画 */
+@keyframes highlight {
+  0% { background-color: rgba(66, 153, 225, 0.1); }
+  50% { background-color: rgba(66, 153, 225, 0.3); }
+  100% { background-color: rgba(66, 153, 225, 0); }
+}
+
+section:target {
+  animation: highlight 2s;
+}
