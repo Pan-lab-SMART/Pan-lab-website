@@ -7,6 +7,7 @@ affiliation: Shenzhen medical academy of research and translation
 links:
   home-page: https://smart.org.cn/en/research/investigator/content/post_1134775.html
   orcid: https://orcid.org/0000-0003-1882-5361
+  email: panxj@smart.org.cn
 ---
   Dr. Xiaojing Pan, Principal Investigator at Shenzhen Medical Academy of Research and Translation (SMART), recipient of the National Natural Science Foundation of China (NSFC) Excellent Young Scientists Fund. Since her postdoctoral work, she has successively received funding support including:
   
