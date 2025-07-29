@@ -13,13 +13,13 @@ nav:
     {% include icon.html icon="fa-solid fa-microscope" %}PI
   </a>
   <a href="#associate-researchers" class="role-link associate-link">
-    {% include icon.html icon="fa-solid fa-flask" %}Associates
+    {% include icon.html icon="fa-solid fa-flask" %}Associate Researchers
   </a>
   <a href="#postdoctoral-researchers" class="role-link postdoc-link">
     {% include icon.html icon="fa-solid fa-graduation-cap" %}Postdocs
   </a>
   <a href="#research-assistants" class="role-link assistant-link">
-    {% include icon.html icon="fa-solid fa-vial" %}Assistants
+    {% include icon.html icon="fa-solid fa-vial" %}Research Assistants
   </a>
   <a href="#students" class="role-link student-link">
     {% include icon.html icon="fa-solid fa-user-graduate" %}Students
