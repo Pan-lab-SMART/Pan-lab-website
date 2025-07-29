@@ -199,27 +199,11 @@
   - Casey S. Greene
   - Anthony Gitter
   publisher: PLOS Computational Biology
-  date: '2020-12-04'
+  date: '2019-06-24'
   link: https://doi.org/c7np
   orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/573782
   title: Sequential compression of gene expression across dimensionalities and methods
     reveals no single best method or dimensionality
@@ -235,30 +219,46 @@
   orcid: 0000-0002-4655-3773
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
-  authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
-  authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1038/s41467-024-49393-9
+  title: Structural basis for urate recognition and apigenin inhibition of human GLUT9
+  authors: Zilin Shen, Li Xu, Tong Wu, Huan Wang, Qifan Wang, Xiaofei Ge, Fang Kong,
+    Gaoxingyu Huang & Xiaojing Pan
+  publisher: Nature Communications
+  date: '2024-06-12'
+  link: https://doi.org/g9vjzf
+  journal: Nature Communications
+  volume: '15'
+  pages: '5039'
+  doi: 10.1038/s41467-024-49393-9
+  abstract: "Urate, the physiological form of uric acid and a potent antioxidant in\
+    \ serum, plays a pivotal role in scavenging reactive oxygen species. Yet excessive\
+    \ accumulation of urate, known as hyperuricemia, is the primary risk factor for\
+    \ the development of gout. The high-capacity urate transporter GLUT9 represents\
+    \ a promising target for gout treatment. Here, we present cryo-electron microscopy\
+    \ structures of human GLUT9 in complex with urate or its inhibitor apigenin at\
+    \ overall resolutions of 3.5\u2009\xC5 and 3.3\u2009\xC5, respectively. In both\
+    \ structures, GLUT9 exhibits an inward open conformation, wherein the substrate\
+    \ binding pocket faces the intracellular side. These structures unveil the molecular\
+    \ basis for GLUT9\u2019s substrate preference of urate over glucose, and show\
+    \ that apigenin acts as a competitive inhibitor by occupying the substrate binding\
+    \ site. Our findings provide critical information for the development of specific\
+    \ inhibitors targeting GLUT9 as potential therapeutics for gout and hyperuricemia.\n"
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-49420-9/MediaObjects/41467_2024_49420_Fig1_HTML.png?as=webp
+  pdf: ../assets/papers/s41467-024-49420-9.pdf
+  links:
+  - type: journal
+    link: https://www.nature.com/articles/s41467-024-49420-9
+  - type: pdf
+    link: https://www.nature.com/articles/s41467-024-49420-9
+  metrics:
+    accesses: 8554
+    citations: 19
+    altmetric: 6
+  tags:
+  - structural biology
+  - transporters
+  - drug discovery
+  type: paper
+  highlight: true
   plugin: sources.py
   file: sources.yaml
