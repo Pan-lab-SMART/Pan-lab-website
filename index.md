@@ -3,8 +3,10 @@
 
 # We are Pan lab
 
-<div style="text-align: center;">
-  We are Pan lab from IBABI (Institute of Bio-Architecture and Bio-Interaction of <a href="https://smart.org.cn/en/">SMART</a>, focusing on single particle Cryo-EM.
+<div style="text-align: center; font-size: 1.5em; font-weight: bold;">
+  We are Pan lab from IBABI (Institute of Bio-Architecture and Bio-Interaction of 
+  <a href="https://smart.org.cn/en/" target="_blank" rel="noopener">SMART</a>), 
+  focusing on single particle Cryo-EM.
 </div>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -24,7 +26,7 @@
 
 {% capture text %}
 
-Mainly using structural biology, biochemistry, physiology and other means, engaged in the study of the working mechanism and drug action mechanism of membrane proteins related to major diseases. At present, the research direction includes membrane proteins related to metabolic diseases and proteins related to tumor-immunity.
+Our research
 
 {%
   include button.html
