@@ -26,3 +26,264 @@
   type: "paper"
   highlight: true
 
+  - id: doi:10.1038/s41467-023-38942-3
+  title: "Structural mapping of Nav1.7 antagonists"
+  authors: "Qiurong Wu, Jian Huang, Xiao Fan, Kan Wang, Xueqin Jin, Gaoxingyu Huang, Jiaao Li, Xiaojing Pan, Nieng Yan"
+  journal: "Nature Communications"
+  date: "2023-06-03"
+  volume: "14"
+  pages: "3224"
+  doi: "10.1038/s41467-023-38942-3"
+  abstract: |
+    Voltage-gated sodium (Nav) channels are targeted by drugs for epilepsy, arrhythmia, and pain. We report cryo-EM structures of human Nav1.7 bound to bupivacaine, lacosamide, carbamazepine, vinpocetine, hardwickiic acid, and vixotrigine at 2.6–3.2 Å. A common site beneath the intracellular gate (site BIG) binds bupivacaine, lacosamide, and carbamazepine. Lacosamide also binds near the selectivity filter. Vinpocetine and hardwickiic acid bind the III–IV fenestration; vixotrigine penetrates the IV–I fenestration. We map druggable sites on Nav channels in 3D.
+  image: ""
+  pdf: ""
+  links:
+    - type: journal
+      link: "https://doi.org/10.1038/s41467-023-38942-3"
+  metrics:
+    accesses: 0
+    citations: 0
+    altmetric: 0
+  tags:
+    - Nav1.7
+    - cryo-EM
+    - drug binding
+    - pain
+  type: paper
+  highlight: false
+
+- id: doi:10.1038/s41580-024-00763-7
+  title: "Structural biology and molecular pharmacology of voltage-gated ion channels"
+  authors: "Jian Huang, Xiaojing Pan, Nieng Yan"
+  journal: "Nature Reviews Molecular Cell Biology"
+  date: "2024-11-01"
+  volume: "25"
+  pages: "904–925"
+  doi: "10.1038/s41580-024-00763-7"
+  abstract: |
+    Voltage-gated ion channels (VGICs) are central to electrical signaling and are drug targets for neurological, cardiovascular, and muscular disorders. This review summarizes recent cryo-EM advances in understanding VGIC structure, drug interactions, and mechanisms of action, offering a structural framework for future drug discovery.
+  image: ""
+  pdf: ""
+  links:
+    - type: journal
+      link: "https://doi.org/10.1038/s41580-024-00763-7"
+  metrics:
+    accesses: 0
+    citations: 0
+    altmetric: 0
+  tags:
+    - VGICs
+    - cryo-EM
+    - drug discovery
+  type: review
+  highlight: true
+
+- id: doi:10.1073/pnas.2209164119
+  title: "Unwinding and spiral sliding of S4 and domain rotation of VSD during the electromechanical coupling in Nav1.7"
+  authors: "Gaoxingyu Huang, Qiurong Wu, Zhangqiang Li, Xueqin Jin, Xiaoshuang Huang, Tong Wu, Xiaojing Pan, Nieng Yan"
+  journal: "Proceedings of the National Academy of Sciences"
+  date: "2022-08-16"
+  volume: "119"
+  pages: "e2209164119"
+  doi: "10.1073/pnas.2209164119"
+  abstract: |
+    We designed a Nav1.7 mutant trapped in closed-state inactivation. Cryo-EM reveals VSDI in a fully down conformation and the pore tightly closed. Structural comparison provides mechanistic insight into electromechanical coupling and pain-related mutations.
+  image: ""
+  pdf: ""
+  links:
+    - type: journal
+      link: "https://doi.org/10.1073/pnas.2209164119"
+  metrics:
+    accesses: 0
+    citations: 0
+    altmetric: 0
+  tags:
+    - Nav1.7
+    - electromechanical coupling
+    - cryo-EM
+  type: paper
+  highlight: false
+
+- id: doi:10.1073/pnas.2208211119
+  title: "Structural basis for high-voltage activation and subtype-specific inhibition of human Nav1.8"
+  authors: "Xiaoshuang Huang, Xueqin Jin, Gaoxingyu Huang, Jian Huang, Tong Wu, Zhangqiang Li, Jiaofeng Chen, Fang Kong, Xiaojing Pan, Nieng Yan"
+  journal: "Proceedings of the National Academy of Sciences"
+  date: "2022-07-26"
+  volume: "119"
+  pages: "e2208211119"
+  doi: "10.1073/pnas.2208211119"
+  abstract: |
+    We present cryo-EM structures of human Nav1.8 alone and bound to A-803467. VSDI shows three conformations. A-803467 binds in the central cavity. Non-ligand residues allosterically determine subtype selectivity.
+  image: ""
+  pdf: ""
+  links:
+    - type: journal
+      link: "https://doi.org/10.1073/pnas.2208211119"
+  metrics:
+    accesses: 0
+    citations: 0
+    altmetric: 0
+  tags:
+    - Nav1.8
+    - A-803467
+    - cryo-EM
+  type: paper
+  highlight: false
+
+- id: doi:10.1073/pnas.2100066118
+  title: "Comparative structural analysis of human Nav1.1 and Nav1.5 reveals mutational hotspots for sodium channelopathies"
+  authors: "Xiaojing Pan, Zhangqiang Li, Xueqin Jin, Yanyu Zhao, Gaoxingyu Huang, Xiaoshuang Huang, Zilin Shen, Yong Cao, Mengqiu Dong, Jianlin Lei, Nieng Yan"
+  journal: "Proceedings of the National Academy of Sciences"
+  date: "2021-03-16"
+  volume: "118"
+  pages: "e2100066118"
+  doi: "10.1073/pnas.2100066118"
+  abstract: |
+    We report cryo-EM structures of Nav1.1 and Nav1.5. Comparative analysis reveals 70 shared mutational hotspots linked to epilepsy and cardiac disorders, providing a framework for precision medicine.
+  image: ""
+  pdf: ""
+  links:
+    - type: journal
+      link: "https://doi.org/10.1073/pnas.2100066118"
+  metrics:
+    accesses: 0
+    citations: 0
+    altmetric: 0
+  tags:
+    - Nav1.1
+    - Nav1.5
+    - channelopathies
+  type: paper
+  highlight: true
+
+- id: doi:10.1038/s41421-020-00193-7
+  title: "Structural insights into the gating mechanism of human SLC26A9 mediated by its C-terminal sequence"
+  authors: "Ximin Chi, Xueqin Jin, Yun Chen, Xiaoli Lu, Xinyu Tu, Xiaorong Li, Yuanyuan Zhang, Jianlin Lei, Jing Huang, Zhuo Huang, Qiang Zhou, Xiaojing Pan"
+  journal: "Cell Discovery"
+  date: "2020-08-10"
+  volume: "6"
+  pages: "55"
+  doi: "10.1038/s41421-020-00193-7"
+  abstract: |
+    We report a 2.6 Å cryo-EM structure of full-length human SLC26A9. The C-terminus binds intracellularly to inhibit ion conduction. Novel Na+ and Cl– binding sites are identified.
+  image: ""
+  pdf: ""
+  links:
+    - type: journal
+      link: "https://doi.org/10.1038/s41421-020-00193-7"
+  metrics:
+    accesses: 0
+    citations: 0
+    altmetric: 0
+  tags:
+    - SLC26A9
+    - cryo-EM
+    - ion transport
+  type: paper
+  highlight: false
+
+- id: doi:10.1126/science.aaw2999
+  title: "Molecular basis for pore blockade of human Na+ channel Nav1.2 by the μ-conotoxin KIIIA"
+  authors: "Xiaojing Pan, Zhangqiang Li, Xiaoshuang Huang, Gaoxingyu Huang, Shuai Gao, Huaizong Shen, Lei Liu, Jianlin Lei, Nieng Yan"
+  journal: "Science"
+  date: "2019-03-22"
+  volume: "363"
+  pages: "1309–1313"
+  doi: "10.1126/science.aaw2999"
+  abstract: |
+    We present the structure of Nav1.2 bound to μ-conotoxin KIIIA. The toxin blocks the pore and shows subtype specificity via unique interactions with Nav1.2.
+  image: ""
+  pdf: ""
+  links:
+    - type: journal
+      link: "https://doi.org/10.1126/science.aaw2999"
+  metrics:
+    accesses: 0
+    citations: 0
+    altmetric: 0
+  tags:
+    - Nav1.2
+    - μ-conotoxin
+    - pore blockade
+  type: paper
+  highlight: true
+
+- id: doi:10.1126/science.aau2486
+  title: "Structure of the human voltage-gated sodium channel Nav1.4 in complex with β1"
+  authors: "Xiaojing Pan, Zhangqiang Li, Qiang Zhou, Huaizong Shen, Kun Wu, Xiaoshuang Huang, Jiaofeng Chen, Juanrong Zhang, Xuechen Zhu, Jianlin Lei, Wei Xiong, Haipeng Gong, Bailong Xiao, Nieng Yan"
+  journal: "Science"
+  date: "2018-10-19"
+  volume: "362"
+  pages: "eaau2486"
+  doi: "10.1126/science.aau2486"
+  abstract: |
+    First human Nav channel structure at 3.2 Å reveals pore, voltage sensors, and β1 subunit, enabling mechanistic and therapeutic insights.
+  image: ""
+  pdf: ""
+  links:
+    - type: journal
+      link: "https://doi.org/10.1126/science.aau2486"
+  metrics:
+    accesses: 0
+    citations: 0
+    altmetric: 0
+  tags:
+    - Nav1.4
+    - β1 subunit
+    - cryo-EM
+  type: paper
+  highlight: true
+
+- id: doi:10.1126/science.aau2596
+  title: "Structural basis for the modulation of voltage-gated sodium channels by animal toxins"
+  authors: "Huaizong Shen, Zhangqiang Li, Yan Jiang, Xiaojing Pan, Jianping Wu, Ben Cristofori-Armstrong, Jennifer J. Smith, Yanni K. Y. Chin, Jianlin Lei, Qiang Zhou, Glenn F. King, Nieng Yan"
+  journal: "Science"
+  date: "2018-10-19"
+  volume: "362"
+  pages: "eaau2596"
+  doi: "10.1126/science.aau2596"
+  abstract: |
+    Structures of insect NavPaS bound to TTX, STX, and Dc1a reveal how toxins block or modulate Nav channels, aiding drug design.
+  image: ""
+  pdf: ""
+  links:
+    - type: journal
+      link: "https://doi.org/10.1126/science.aau2596"
+  metrics:
+    accesses: 0
+    citations: 0
+    altmetric: 0
+  tags:
+    - NavPaS
+    - toxins
+    - TTX
+  type: paper
+  highlight: false
+
+- id: doi:10.1126/science.aal4326
+  title: "Structure of a eukaryotic voltage-gated sodium channel at near-atomic resolution"
+  authors: "Huaizong Shen, Qiang Zhou, Xiaojing Pan, Zhangqiang Li, Jianping Wu, Nieng Yan"
+  journal: "Science"
+  date: "2017-03-03"
+  volume: "355"
+  pages: "eaal4326"
+  doi: "10.1126/science.aal4326"
+  abstract: |
+    First near-atomic structure of a eukaryotic Nav channel (NavPaS) at 3.8 Å, revealing voltage sensors, selectivity filter, and cytoplasmic domains.
+  image: ""
+  pdf: ""
+  links:
+    - type: journal
+      link: "https://doi.org/10.1126/science.aal4326"
+  metrics:
+    accesses: 0
+    citations: 0
+    altmetric: 0
+  tags:
+    - NavPaS
+    - cryo-EM
+    - voltage sensor
+  type: paper
+  highlight: false
+
