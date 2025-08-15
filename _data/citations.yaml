@@ -1,6 +1,258 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-
+- id: doi:10.1038/s41580-024-00786-0
+  title: 'Author Correction: Structural biology and molecular pharmacology of voltage-gated
+    ion channels'
+  authors:
+  - Jian Huang
+  - Xiaojing Pan
+  - Nieng Yan
+  publisher: Nature Reviews Molecular Cell Biology
+  date: '2024-09-24'
+  link: https://doi.org/g9w4m7
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41580-024-00763-7
+  title: Structural biology and molecular pharmacology of voltage-gated ion channels
+  authors:
+  - Jian Huang
+  - Xiaojing Pan
+  - Nieng Yan
+  publisher: Nature Reviews Molecular Cell Biology
+  date: '2024-08-05'
+  link: https://doi.org/gt6msp
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41467-024-49420-9
+  title: Structural basis for urate recognition and apigenin inhibition of human GLUT9
+  authors:
+  - Zilin Shen
+  - Li Xu
+  - Tong Wu
+  - Huan Wang
+  - Qifan Wang
+  - Xiaofei Ge
+  - Fang Kong
+  - Gaoxingyu Huang
+  - Xiaojing Pan
+  publisher: Nature Communications
+  date: '2024-06-12'
+  link: https://doi.org/g9w4m8
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.celrep.2022.110735
+  title: "High-resolution structures of human Nav1.7 reveal gating modulation through\
+    \ \u03B1-\u03C0 helical transition of S6IV"
+  authors:
+  - Gaoxingyu Huang
+  - Dongliang Liu
+  - Weipeng Wang
+  - Qiurong Wu
+  - Jiaofeng Chen
+  - Xiaojing Pan
+  - Huaizong Shen
+  - Nieng Yan
+  publisher: Cell Reports
+  date: '2022-04-01'
+  link: https://doi.org/g9w4m9
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/anie.202102196
+  title: Structural Basis for Pore Blockade of the Human Cardiac Sodium Channel Na<sub>v</sub>1.5
+    by the Antiarrhythmic Drug Quinidine**
+  authors:
+  - Zhangqiang Li
+  - Xueqin Jin
+  - Tong Wu
+  - Gaoxingyu Huang
+  - Kun Wu
+  - Jianlin Lei
+  - Xiaojing Pan
+  - Nieng Yan
+  publisher: Angewandte Chemie International Edition
+  date: '2021-04-06'
+  link: https://doi.org/g9w4nb
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.2100066118
+  title: "Comparative structural analysis of human Na\n            <sub>v</sub>\n\
+    \            1.1 and Na\n            <sub>v</sub>\n            1.5 reveals mutational\
+    \ hotspots for sodium channelopathies"
+  authors:
+  - Xiaojing Pan
+  - Zhangqiang Li
+  - Xueqin Jin
+  - Yanyu Zhao
+  - Gaoxingyu Huang
+  - Xiaoshuang Huang
+  - Zilin Shen
+  - Yong Cao
+  - Mengqiu Dong
+  - Jianlin Lei
+  - Nieng Yan
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2021-03-12'
+  link: https://doi.org/gr4h27
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2021.02.06.430010
+  title: Structure of human Na<sub>v</sub>1.5 reveals the fast inactivation-related
+    segments as a mutational hotspot for the Long QT Syndrome
+  authors:
+  - Zhangqiang Li
+  - Xueqin Jin
+  - Tong Wu
+  - Xin Zhao
+  - Weipeng Wang
+  - Jianlin Lei
+  - Xiaojing Pan
+  - Nieng Yan
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-02-07'
+  link: https://doi.org/g9w4nc
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/bs.mie.2021.03.010
+  title: Structural determination of human Nav1.4 and Nav1.7 using single particle
+    cryo-electron microscopy
+  authors: []
+  publisher: Methods in Enzymology
+  date: '2021-01-01'
+  link: https://doi.org/g9w4nd
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41421-020-00193-7
+  title: Structural insights into the gating mechanism of human SLC26A9 mediated by
+    its C-terminal sequence
+  authors:
+  - Ximin Chi
+  - Xueqin Jin
+  - Yun Chen
+  - Xiaoli Lu
+  - Xinyu Tu
+  - Xiaorong Li
+  - Yuanyuan Zhang
+  - Jianlin Lei
+  - Jing Huang
+  - Zhuo Huang
+  - Qiang Zhou
+  - Xiaojing Pan
+  publisher: Cell Discovery
+  date: '2020-08-10'
+  link: https://doi.org/g9w4nf
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.1922903117
+  title: "Employing NaChBac for cryo-EM analysis of toxin action on voltage-gated\
+    \ Na\n            <sup>+</sup>\n            channels in nanodisc"
+  authors:
+  - Shuai Gao
+  - William C. Valinsky
+  - Nguyen Cam On
+  - Patrick R. Houlihan
+  - Qian Qu
+  - Lei Liu
+  - Xiaojing Pan
+  - David E. Clapham
+  - Nieng Yan
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2020-06-08'
+  link: https://doi.org/gsvd3k
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41586-019-1801-3
+  title: Cryo-EM structures of apo and antagonist-bound human Cav3.1
+  authors:
+  - Yanyu Zhao
+  - Gaoxingyu Huang
+  - Qiurong Wu
+  - Kun Wu
+  - Ruiqi Li
+  - Jianlin Lei
+  - Xiaojing Pan
+  - Nieng Yan
+  publisher: Nature
+  date: '2019-11-25'
+  link: https://doi.org/ggtzvd
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/science.aaw2999
+  title: "Molecular basis for pore blockade of human Na\n            <sup>+</sup>\n\
+    \            channel Na\n            <sub>v</sub>\n            1.2 by the \u03BC\
+    -conotoxin KIIIA"
+  authors:
+  - Xiaojing Pan
+  - Zhangqiang Li
+  - Xiaoshuang Huang
+  - Gaoxingyu Huang
+  - Shuai Gao
+  - Huaizong Shen
+  - Lei Liu
+  - Jianlin Lei
+  - Nieng Yan
+  publisher: Science
+  date: '2019-03-22'
+  link: https://doi.org/gfw9ww
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/science.aau2596
+  title: Structural basis for the modulation of voltage-gated sodium channels by animal
+    toxins
+  authors:
+  - Huaizong Shen
+  - Zhangqiang Li
+  - Yan Jiang
+  - Xiaojing Pan
+  - Jianping Wu
+  - Ben Cristofori-Armstrong
+  - Jennifer J. Smith
+  - Yanni K. Y. Chin
+  - Jianlin Lei
+  - Qiang Zhou
+  - Glenn F. King
+  - Nieng Yan
+  publisher: Science
+  date: '2018-10-19'
+  link: https://doi.org/gdxt72
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/science.aau2486
+  title: "Structure of the human voltage-gated sodium channel Na\n            <sub>v</sub>\n\
+    \            1.4 in complex with \u03B21"
+  authors:
+  - Xiaojing Pan
+  - Zhangqiang Li
+  - Qiang Zhou
+  - Huaizong Shen
+  - Kun Wu
+  - Xiaoshuang Huang
+  - Jiaofeng Chen
+  - Juanrong Zhang
+  - Xuechen Zhu
+  - Jianlin Lei
+  - Wei Xiong
+  - Haipeng Gong
+  - Bailong Xiao
+  - Nieng Yan
+  publisher: Science
+  date: '2018-10-19'
+  link: https://doi.org/gfgrpv
+  orcid: 0000-0003-1882-5361
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41467-024-49393-9
   title: Structural basis for urate recognition and apigenin inhibition of human GLUT9
   authors: Zilin Shen, Li Xu, Tong Wu, Huan Wang, Qifan Wang, Xiaofei Ge, Fang Kong,
