@@ -47,31 +47,6 @@ Mainly using structural biology, biochemistry, physiology and other means, engag
 
 {% capture text %}
 
-Projects.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
 Meet the team!
 
 {%
