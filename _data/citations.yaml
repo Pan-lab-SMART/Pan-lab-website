@@ -1,18 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1038/s41580-024-00786-0
-  title: 'Author Correction: Structural biology and molecular pharmacology of voltage-gated
-    ion channels'
-  authors:
-  - Jian Huang
-  - Xiaojing Pan
-  - Nieng Yan
-  publisher: Nature Reviews Molecular Cell Biology
-  date: '2024-09-24'
-  link: https://doi.org/g9w4m7
-  orcid: 0000-0003-1882-5361
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1038/s41580-024-00763-7
   title: Structural biology and molecular pharmacology of voltage-gated ion channels
   authors:
