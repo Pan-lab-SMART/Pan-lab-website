@@ -155,7 +155,7 @@
     - Nav1.5
     - channelopathies
   type: paper
-  highlight: true
+  highlight: false
 
 - id: doi:10.1038/s41421-020-00193-7
   title: "Structural insights into the gating mechanism of human SLC26A9 mediated by its C-terminal sequence"
