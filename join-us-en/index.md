@@ -1,8 +1,8 @@
 ---
 title: Join Us
 nav:
-  order: 6
-  tooltip: Career opportunities
+  order: 7
+  tooltip: Career opportunities (English)
 ---
 
 # {% include icon.html icon="fa-solid fa-user-plus" %}Join Us
