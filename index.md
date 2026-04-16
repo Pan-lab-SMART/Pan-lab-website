@@ -1,4 +1,6 @@
 ---
+description: Pan Lab at Shenzhen Medical Academy of Research and Translation — structural biology of membrane proteins using Cryo-EM
+keywords: cryo-EM, structural biology, membrane proteins, ion channels, GLUT9, voltage-gated sodium channels, calcium channels, drug discovery, GABAAR, TMEM132B
 ---
 
 # We are Pan lab
@@ -8,7 +10,6 @@
   <a href="https://smart.org.cn/en/" target="_blank" rel="noopener">SMART</a>), 
   focusing on single particle Cryo-EM.
 </div>
-
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -21,6 +22,49 @@
     {% include section.html %}
   </div>
 </div>
+
+{% include section.html %}
+
+## About Our Research
+
+Our lab specializes in **single-particle Cryo-EM** to determine high-resolution structures of membrane proteins, unraveling their working mechanisms and drug action principles. We combine structural biology with **biochemistry, physiology, and medicinal chemistry** to tackle key questions in disease biology.
+
+**Research Directions:**
+
+- **Voltage-gated ion channels** (Na<sub>V</sub>, Ca<sub>V</sub>) — gating modulation, toxin recognition, drug binding
+- **Urate transporter GLUT9** — substrate transport mechanism, gout therapeutic target
+- **Metabolic disease membrane proteins** — structure-based drug discovery
+- **Tumor-immune related proteins** — structural basis for immunotherapy
+
+**Key Techniques:** Cryo-EM structure determination · Protein engineering · Electrophysiology · Ligand screening
+
+{% include section.html %}
+
+## Latest Achievement
+
+{%
+  include citation.html
+  lookup="doi:10.1038/s41567-024-02638-8"
+  style="rich"
+%}
+
+{%
+  include citation.html
+  lookup="doi:10.1038/s41567-024-02638-8"
+  style="rich"
+%}
+
+{%
+  include citation.html
+  lookup="doi:10.1038/s41467-024-49420-9"
+  style="rich"
+%}
+
+{%
+  include citation.html
+  lookup="doi:10.1038/s41580-024-00763-7"
+  style="rich"
+%}
 
 {% include section.html %}
 
