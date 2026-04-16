@@ -1,53 +1,72 @@
 // 团队页面专属功能
 document.addEventListener('DOMContentLoaded', function() {
-  // 为导航链接添加平滑滚动
+  // ========== 角色分类导航滚动高亮 ==========
   const roleLinks = document.querySelectorAll('.role-link');
-  
-  if (roleLinks.length > 0) {
+  const sections = document.querySelectorAll('section[id]');
+
+  if (roleLinks.length > 0 && sections.length > 0) {
+    // 平滑滚动到对应区域
     roleLinks.forEach(link => {
       link.addEventListener('click', function(e) {
         e.preventDefault();
         const targetId = this.getAttribute('href');
         const targetElement = document.querySelector(targetId);
-        
+
         if (targetElement) {
-          // 计算偏移量（考虑固定导航栏高度）
-          const offset = 100;
+          const offset = 80; // header height
           const targetPosition = targetElement.offsetTop - offset;
-          
+
           window.scrollTo({
             top: targetPosition,
             behavior: 'smooth'
           });
-          
-          // 更新URL哈希（但不触发跳转）
+
           history.pushState(null, null, targetId);
         }
       });
     });
-    
-    // 检查初始哈希并滚动到对应位置
+
+    // 滚动时高亮当前分类
+    const highlightLink = () => {
+      let current = '';
+      const scrollY = window.scrollY + 120;
+
+      sections.forEach(section => {
+        if (section.offsetTop <= scrollY) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      roleLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', highlightLink, { passive: true });
+    highlightLink();
+
+    // 初始哈希滚动
     if (window.location.hash) {
-      const targetElement = document.querySelector(window.location.hash);
-      if (targetElement) {
-        setTimeout(() => {
-          window.scrollTo({
-            top: targetElement.offsetTop - 100,
-            behavior: 'smooth'
-          });
-        }, 100);
-      }
+      setTimeout(() => {
+        const el = document.querySelector(window.location.hash);
+        if (el) {
+          window.scrollTo({ top: el.offsetTop - 80, behavior: 'smooth' });
+        }
+      }, 100);
     }
   }
-  
-  // 为成员卡片添加悬停效果
+
+  // ========== 成员卡片悬停效果 ==========
   const portraits = document.querySelectorAll('.portrait');
   portraits.forEach(portrait => {
     portrait.addEventListener('mouseenter', function() {
       this.style.transform = 'translateY(-5px)';
       this.style.boxShadow = '0 10px 20px rgba(0,0,0,0.1)';
     });
-    
+
     portrait.addEventListener('mouseleave', function() {
       this.style.transform = '';
       this.style.boxShadow = '';
