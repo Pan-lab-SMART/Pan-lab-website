@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-<!-- 添加横向分类导航栏 -->
+<!-- horizontal role navigation bar -->
 <div class="role-navigation">
   <a href="#principal-investigator" class="role-link pi-link">
     {% include icon.html icon="fa-solid fa-microscope" %}PI
@@ -28,58 +28,57 @@ nav:
 
 {% include section.html %}
 
-<!-- 为每个部分添加ID以便跳转 -->
+<!-- Principal Investigator -->
 <section id="principal-investigator">
   <h2 class="role-header">{% include icon.html icon="fa-solid fa-microscope" %}Principal Investigator</h2>
-  {% include list.html 
-    data="members" 
-    component="portrait" 
-    filter="role == 'principal-investigator'" 
-  %}
+  {% assign pi = site.data.members | where_exp: "m", "m.role == 'principal-investigator'" %}
+  {% for m in pi %}
+    {% include portrait.html lookup=m.slug %}
+  {% endfor %}
 </section>
 
 {% include section.html %}
 
+<!-- Associate Researchers -->
 <section id="associate-researchers">
   <h2 class="role-header">{% include icon.html icon="fa-solid fa-flask" %}Associate Researchers</h2>
-  {% include list.html 
-    data="members" 
-    component="portrait" 
-    filter="role == 'associate-researcher'" 
-  %}
+  {% assign ar = site.data.members | where_exp: "m", "m.role == 'associate-researcher'" %}
+  {% for m in ar %}
+    {% include portrait.html lookup=m.slug %}
+  {% endfor %}
 </section>
 
 {% include section.html %}
 
+<!-- Postdoctoral Researchers -->
 <section id="postdoctoral-researchers">
   <h2 class="role-header">{% include icon.html icon="fa-solid fa-graduation-cap" %}Postdoctoral Researchers</h2>
-  {% include list.html 
-    data="members" 
-    component="portrait" 
-    filter="role == 'postdoc'" 
-  %}
+  {% assign pd = site.data.members | where_exp: "m", "m.role == 'postdoc'" %}
+  {% for m in pd %}
+    {% include portrait.html lookup=m.slug %}
+  {% endfor %}
 </section>
 
 {% include section.html %}
 
+<!-- Research Assistants -->
 <section id="research-assistants">
   <h2 class="role-header">{% include icon.html icon="fa-solid fa-vial" %}Research Assistants</h2>
-  {% include list.html 
-    data="members" 
-    component="portrait" 
-    filter="role == 'research-assistant'" 
-  %}
+  {% assign ra = site.data.members | where_exp: "m", "m.role == 'research-assistant'" %}
+  {% for m in ra %}
+    {% include portrait.html lookup=m.slug %}
+  {% endfor %}
 </section>
 
 {% include section.html %}
 
+<!-- Students -->
 <section id="students">
   <h2 class="role-header">{% include icon.html icon="fa-solid fa-user-graduate" %}Students</h2>
-  {% include list.html 
-    data="members" 
-    component="portrait" 
-    filter="role == 'student'" 
-  %}
+  {% assign st = site.data.members | where_exp: "m", "m.role == 'student'" %}
+  {% for m in st %}
+    {% include portrait.html lookup=m.slug %}
+  {% endfor %}
 </section>
 
 {% include section.html background="images/background.jpg" dark=true %}
