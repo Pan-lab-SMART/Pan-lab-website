@@ -69,6 +69,7 @@ theme: null
 # sass settings
 sass:
   sass_dir: _styles
+  style: compressed
 
 # force jekyll to include certain files/folders
 include:
