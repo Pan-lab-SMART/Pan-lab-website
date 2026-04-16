@@ -20,5 +20,6 @@ jobs:
     uses: ./.github/workflows/update-citations.yaml
 
   build-site:
-    needs: update-citations
+    # build-site runs independently — does NOT wait for citations to update
+    # this prevents transient citation API failures from blocking deployments
     uses: ./.github/workflows/build-site.yaml
