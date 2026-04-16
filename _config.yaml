@@ -1,10 +1,19 @@
 # site properties and page defaults
 title: Pan-lab-SMART
 subtitle: See the small and know the large
-description: Single particle CRYO-EM
+description: Pan Lab at Shenzhen Medical Academy of Research and Translation (SMART) — focusing on single particle Cryo-EM, structural biology of membrane proteins, voltage-gated ion channels, GLUT9, and drug discovery.
+url: https://pan-lab-smart.github.io
+lang: en
 header: images/header.jpg
 footer: 
 proofer: false
+
+# Open Graph / SEO
+og_image: images/panteam.jpg
+twitter:
+  card: summary_large_image
+  site: "@Pan-lab-SMART"
+  creator: "@Pan-lab-SMART"
 
 # site social media and other links
 links:
