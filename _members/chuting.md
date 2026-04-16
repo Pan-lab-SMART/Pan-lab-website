@@ -1,7 +1,7 @@
 ---
 name: Zeng Chuting
 image: images/chuting.jpg
-role: research-assistant
+role: student
 affiliation: Shenzhen medical acedamy of research and translation 
 
 ---
