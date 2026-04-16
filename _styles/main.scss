@@ -1,6 +1,46 @@
+---
+---
 
-main {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
+// Import all style modules
+@import "all";
+@import "anchor";
+@import "background";
+@import "body";
+@import "bold";
+@import "button";
+@import "card";
+@import "citation";
+@import "code";
+@import "cols";
+@import "details";
+@import "feature";
+@import "figure";
+@import "float";
+@import "footer";
+@import "form";
+@import "grid";
+@import "header";
+@import "heading";
+@import "icon";
+@import "image";
+@import "link";
+@import "list";
+@import "paragraph";
+@import "portrait";
+@import "post-excerpt";
+@import "post-info";
+@import "post-nav";
+@import "quote";
+@import "rule";
+@import "section";
+@import "table";
+@import "tags";
+@import "textbox";
+@import "tooltip";
+@import "util";
+@import "alert";
+@import "checkbox";
+@import "dark-toggle";
+@import "highlight";
+@import "search-box";
+@import "search-info";
