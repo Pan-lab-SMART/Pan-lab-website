@@ -13,13 +13,33 @@ permissions:
   contents: write
   pull-requests: write
 
+# NOTE: The actual site build and deploy is handled by
+# .github/workflows/jekyll.yml (Deploy Jekyll site to Pages).
+# This workflow runs citations update as a background task.
+# Citations failures don't block deployment.
+
 jobs:
   update-citations:
-    # skip first run because nothing enabled or setup yet
+    # skip first run
     if: github.run_number != 1
-    uses: ./.github/workflows/update-citations.yaml
-
-  build-site:
-    # build-site runs independently — does NOT wait for citations to update
-    # this prevents transient citation API failures from blocking deployments
-    uses: ./.github/workflows/build-site.yaml
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "_cite/requirements.txt"
+      - name: Install deps
+        run: python -m pip install --upgrade --requirement _cite/requirements.txt
+      - name: Build citations
+        run: python _cite/cite.py
+        continue-on-error: true  # Don't fail the workflow
+      - name: Commit if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: "_data/citations.yaml"
+          commit_message: "Update citations"
