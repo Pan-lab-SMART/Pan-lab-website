@@ -5,7 +5,7 @@ role: principal-investigator
 affiliation: Shenzhen medical academy of research and translation 
 
 links:
-  home-page: https://smart.org.cn/en/research/investigator/content/post_1134775.html
+  home-page: https://smart.org.cn/faculty/panxiaojing
   orcid: https://orcid.org/0000-0003-1882-5361
   email: panxj@smart.org.cn
 ---
