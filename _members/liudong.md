@@ -1,7 +1,7 @@
 ---
 name: Liu Dong
 image: images/dong.jpg
-role: research-assistant
+role: student
 affiliation: Shenzhen medical acedamy of research and translation 
 
 ---
