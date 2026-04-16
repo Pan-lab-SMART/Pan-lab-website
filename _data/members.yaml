@@ -1,0 +1,106 @@
+# AUTO-GENERATED from _members/*.md files
+
+- name: Liu Dingrui
+  image: members/DingruiLiu.jpg
+  role: student
+  affiliation: Shenzhen medical acedamy of research and translation
+  slug: DingruiLiu
+  description: ''
+  links:
+    home-page: https://liudingrui9.github.io/Dingrui/
+    orcid: https://orcid.org/0000-0002-3472-503X
+- name: Chen Jiawei
+  image: members/Jiaweichen.jpg
+  role: student
+  affiliation: Shenzhen medical acedamy of research and translation
+  slug: Jiaweichen
+  description: ''
+  links: {}
+- name: Zeng Chuting
+  image: members/chuting.jpg
+  role: student
+  affiliation: Shenzhen medical acedamy of research and translation
+  slug: chuting
+  description: ''
+  links: {}
+- name: Zhang Jixing
+  image: members/jixing.jpg
+  role: research-assistant
+  affiliation: Shenzhen medical acedamy of research and translation
+  slug: jixing
+  description: ''
+  links: {}
+- name: Li Menglu
+  image: members/limenglu.jpg
+  role: associate-researcher
+  affiliation: Shenzhen medical acedamy of research and translation
+  slug: limenglu
+  description: ''
+  links:
+    home-page: null
+    orcid: https://orcid.org/
+- name: Xu Linghui
+  image: members/linghui.jpg
+  role: postdoc
+  affiliation: Shenzhen medical acedamy of research and translation
+  slug: linghui
+  description: ''
+  links:
+    home-page: null
+    orcid: https://orcid.org/
+- name: Liu Dong
+  image: members/liudong.jpg
+  role: student
+  affiliation: Shenzhen medical acedamy of research and translation
+  slug: liudong
+  description: ''
+  links: {}
+- name: Pan Xiaojing
+  image: members/panxiaojing.jpg
+  role: principal-investigator
+  affiliation: Shenzhen medical academy of research and translation
+  slug: panxiaojing
+  description: ''
+  links:
+    home-page: https://smart.org.cn/faculty/panxiaojing
+    orcid: https://orcid.org/0000-0003-1882-5361
+    email: panxj@smart.org.cn
+- name: Xu Li
+  image: members/xuli.jpg
+  role: associate-researcher
+  affiliation: Shenzhen medical acedamy of research and translation
+  slug: xuli
+  description: ''
+  links:
+    home-page: null
+    orcid: https://orcid.org/
+- name: Wang Yinsong
+  image: members/yinsong.jpg
+  role: research-assistant
+  affiliation: Shenzhen medical acedamy of research and translation
+  slug: yinsong
+  description: ''
+  links: {}
+- name: Hou Yunnan
+  image: members/yunnan.jpg
+  role: postdoc
+  affiliation: Shenzhen medical acedamy of research and translation
+  slug: yunnan
+  description: ''
+  links: {}
+- name: Luo Zhiteng
+  image: members/zhiteng.jpg
+  role: postdoc
+  affiliation: Shenzhen medical acedamy of research and translation
+  slug: zhiteng
+  description: ''
+  links: {}
+- name: Shen Zilin
+  image: members/zilin.jpg
+  role: postdoc
+  affiliation: Shenzhen medical acedamy of research and translation
+  slug: zilin
+  description: ''
+  links:
+    home-page: null
+    orcid: https://orcid.org/
