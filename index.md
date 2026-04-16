@@ -15,7 +15,7 @@ keywords: cryo-EM, structural biology, membrane proteins, ion channels, GLUT9, v
   <div class='paper-box-image'>
     <div>
       <div class="badge"></div>
-      <img src='images/panteam.jpg' alt="sym" style="width: 80%; max-width: 800px; display: block; margin: 0 auto;">
+      <img src='images/panteam.jpg' alt="Pan lab team" style="width: 80%; max-width: 800px; display: block; margin: 0 auto;">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -40,19 +40,7 @@ Our lab specializes in **single-particle Cryo-EM** to determine high-resolution 
 
 {% include section.html %}
 
-## Latest Achievement
-
-{%
-  include citation.html
-  lookup="doi:10.1038/s41567-024-02638-8"
-  style="rich"
-%}
-
-{%
-  include citation.html
-  lookup="doi:10.1038/s41567-024-02638-8"
-  style="rich"
-%}
+## Representative Publications
 
 {%
   include citation.html
@@ -63,6 +51,18 @@ Our lab specializes in **single-particle Cryo-EM** to determine high-resolution 
 {%
   include citation.html
   lookup="doi:10.1038/s41580-024-00763-7"
+  style="rich"
+%}
+
+{%
+  include citation.html
+  lookup="doi:10.1126/science.aaw2999"
+  style="rich"
+%}
+
+{%
+  include citation.html
+  lookup="doi:10.1126/science.aau2596"
   style="rich"
 %}
 
