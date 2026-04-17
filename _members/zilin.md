@@ -2,7 +2,6 @@
 name: Shen Zilin
 image: images/zilin-1.jpg
 role: postdoc
-affiliation: Shenzhen medical acedamy of research and translation 
 
 links:
   home-page: 
