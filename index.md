@@ -25,33 +25,33 @@ keywords: cryo-EM, structural biology, membrane proteins, ion channels, GLUT9, v
 
 {% include section.html %}
 
-## About Our Research
+## <span class="section-badge research-badge">About Our Research</span>
 
 Our lab specializes in **single-particle Cryo-EM** to determine high-resolution structures of membrane proteins, unraveling their working mechanisms and drug action principles. We combine structural biology with **biochemistry, physiology, and medicinal chemistry** to tackle key questions in disease biology.
 
 **Research Directions:**
 
-- **Voltage-gated ion channels** (Na<sub>V</sub>, Ca<sub>V</sub>) — gating modulation, toxin recognition, drug binding
-- **Urate transporter GLUT9** — substrate transport mechanism, gout therapeutic target
-- **Metabolic disease membrane proteins** — structure-based drug discovery
-- **Tumor-immune related proteins** — structural basis for immunotherapy
+- Metabolic disease membrane proteins — structure-based drug discovery
+- Tumor-immune related proteins — structural basis for immunotherapy
 
 **Key Techniques:** Cryo-EM structure determination · Protein engineering · Electrophysiology · Ligand screening
 
 {% include section.html %}
 
-## Representative Publications
-
-{%
-  include citation.html
-  lookup="doi:10.1038/s41467-024-49420-9"
-  style="rich"
-%}
+## <span class="section-badge pub-badge">Representative Publications</span>
 
 {%
   include citation.html
   lookup="doi:10.1038/s41580-024-00763-7"
   style="rich"
+  highlight="true"
+%}
+
+{%
+  include citation.html
+  lookup="doi:10.1038/s41467-024-49420-9"
+  style="rich"
+  highlight="true"
 %}
 
 {%
