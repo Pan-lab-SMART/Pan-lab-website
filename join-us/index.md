@@ -36,7 +36,7 @@ nav:
 </script>
 
 <!-- ========== ENGLISH VERSION ========== -->
-<section data-lang="en">
+<div data-lang="en" markdown="1">
 
 # <i class="icon fa-solid fa-user-plus"></i> Join Us
 
@@ -146,10 +146,10 @@ Please send your application materials as PDF attachments to **panxjlab@smart.or
   style="bare"
 %}
 
-</section>
+</div>
 
 <!-- ========== CHINESE VERSION ========== -->
-<section data-lang="cn" style="display:none;">
+<div data-lang="cn" style="display:none;" markdown="1">
 
 # <i class="icon fa-solid fa-user-plus"></i> 加入我们
 
@@ -259,4 +259,4 @@ Please send your application materials as PDF attachments to **panxjlab@smart.or
   style="bare"
 %}
 
-</section>
+</div>
