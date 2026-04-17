@@ -22,6 +22,7 @@
   publisher: Nature Reviews Molecular Cell Biology
   date: '2024-08-05'
   link: https://doi.org/gt6msp
+  image: images/ion_channel_review.png
   orcid: 0000-0003-1882-5361
   plugin: orcid.py
   file: orcid.yaml
@@ -40,6 +41,7 @@
   publisher: Nature Communications
   date: '2024-06-12'
   link: https://doi.org/g9w4m8
+  image: images/glut9_fig1.png
   orcid: 0000-0003-1882-5361
   plugin: orcid.py
   file: orcid.yaml
