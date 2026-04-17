@@ -18,6 +18,7 @@
       content: (element) => element.dataset.tooltip.trim(),
       delay: [200, 0],
       offset: [0, 20],
+      placement: "bottom",
       allowHTML: true,
       interactive: true,
       appendTo: () => document.body,
