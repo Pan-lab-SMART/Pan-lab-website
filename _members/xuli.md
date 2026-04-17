@@ -2,7 +2,6 @@
 name: Xu Li
 image: images/xuli.png
 role: associate-researcher
-affiliation: Shenzhen medical acedamy of research and translation 
 
 links:
   home-page: 
