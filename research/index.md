@@ -13,7 +13,19 @@ Mainly using structural biology, biochemistry, physiology and other means, engag
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{%
+  include citation.html
+  lookup="doi:10.1038/s41580-024-00763-7"
+  style="rich"
+  highlight="true"
+%}
+
+{%
+  include citation.html
+  lookup="doi:10.1038/s41567-024-52335-6"
+  style="rich"
+  highlight="true"
+%}
 
 {% include section.html %}
 
