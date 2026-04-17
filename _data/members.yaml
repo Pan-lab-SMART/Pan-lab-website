@@ -3,7 +3,6 @@
 - name: Liu Dingrui
   image: members/DingruiLiu.jpg
   role: student
-  affiliation: Shenzhen medical acedamy of research and translation
   slug: DingruiLiu
   description: ''
   links:
@@ -12,28 +11,24 @@
 - name: Chen Jiawei
   image: members/Jiaweichen.jpg
   role: student
-  affiliation: Shenzhen medical acedamy of research and translation
   slug: Jiaweichen
   description: ''
   links: {}
 - name: Zeng Chuting
   image: members/chuting.jpg
   role: student
-  affiliation: Shenzhen medical acedamy of research and translation
   slug: chuting
   description: ''
   links: {}
 - name: Zhang Jixing
   image: members/jixing.jpg
   role: research-assistant
-  affiliation: Shenzhen medical acedamy of research and translation
   slug: jixing
   description: ''
   links: {}
 - name: Li Menglu
   image: members/limenglu.jpg
   role: associate-researcher
-  affiliation: Shenzhen medical acedamy of research and translation
   slug: limenglu
   description: ''
   links:
@@ -42,7 +37,6 @@
 - name: Xu Linghui
   image: members/linghui.jpg
   role: postdoc
-  affiliation: Shenzhen medical acedamy of research and translation
   slug: linghui
   description: ''
   links:
@@ -51,14 +45,12 @@
 - name: Liu Dong
   image: members/liudong.jpg
   role: student
-  affiliation: Shenzhen medical acedamy of research and translation
   slug: liudong
   description: ''
   links: {}
 - name: Pan Xiaojing
   image: members/panxiaojing.jpg
   role: principal-investigator
-  affiliation: Shenzhen medical academy of research and translation
   slug: panxiaojing
   description: ''
   links:
@@ -68,7 +60,6 @@
 - name: Xu Li
   image: members/xuli.jpg
   role: associate-researcher
-  affiliation: Shenzhen medical acedamy of research and translation
   slug: xuli
   description: ''
   links:
@@ -77,28 +68,24 @@
 - name: Wang Yinsong
   image: members/yinsong.jpg
   role: research-assistant
-  affiliation: Shenzhen medical acedamy of research and translation
   slug: yinsong
   description: ''
   links: {}
 - name: Hou Yunnan
   image: members/yunnan.jpg
   role: postdoc
-  affiliation: Shenzhen medical acedamy of research and translation
   slug: yunnan
   description: ''
   links: {}
 - name: Luo Zhiteng
   image: members/zhiteng.jpg
   role: postdoc
-  affiliation: Shenzhen medical acedamy of research and translation
   slug: zhiteng
   description: ''
   links: {}
 - name: Shen Zilin
   image: members/zilin.jpg
   role: postdoc
-  affiliation: Shenzhen medical acedamy of research and translation
   slug: zilin
   description: ''
   links:
