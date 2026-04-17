@@ -1,11 +1,16 @@
 ---
 ---
 
-// Import all style modules
+// Framework — MUST be first (defines :root CSS variables)
+@import "theme";
+
+// Base styles — MUST be after theme
+@import "body";
+
+// All other modules
 @import "all";
 @import "anchor";
 @import "background";
-@import "body";
 @import "bold";
 @import "button";
 @import "card";
