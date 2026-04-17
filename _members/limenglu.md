@@ -2,7 +2,6 @@
 name: Li Menglu
 image: images/menglu.jpg
 role: associate-researcher
-affiliation: Shenzhen medical acedamy of research and translation 
 
 links:
   home-page: 
