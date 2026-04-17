@@ -149,7 +149,7 @@ Please send your application materials as PDF attachments to **panxjlab@smart.or
 </div>
 
 <!-- ========== CHINESE VERSION ========== -->
-<div data-lang="cn" style="display:none;" markdown="1">
+<div data-lang="cn" markdown="1">
 
 # <i class="icon fa-solid fa-user-plus"></i> 加入我们
 
