@@ -5,7 +5,7 @@ keywords: cryo-EM, structural biology, membrane proteins, ion channels, GLUT9, v
 
 # We are Pan lab
 
-<div style="text-align: center; font-size: 1.5em; font-weight: bold;">
+<div style="text-align: center; font-size: 1.5em; font-weight: bold; margin-bottom: 2.5rem;">
   We are Pan lab from IBABI (Institute of Bio-Architecture and Bio-Interaction of 
   <a href="https://smart.org.cn/en/" target="_blank" rel="noopener">SMART</a>), 
   focusing on single particle Cryo-EM.
@@ -27,14 +27,14 @@ keywords: cryo-EM, structural biology, membrane proteins, ion channels, GLUT9, v
 
 ## <span class="section-badge research-badge">About Our Research</span>
 
+<div class="research-text">
 Our lab specializes in **single-particle Cryo-EM** to determine high-resolution structures of membrane proteins, unraveling their working mechanisms and drug action principles. We combine structural biology with **biochemistry, physiology, and medicinal chemistry** to tackle key questions in disease biology.
 
 **Research Directions:**
 
 - Metabolic disease membrane proteins — structure-based drug discovery
 - Tumor-immune related proteins — structural basis for immunotherapy
-
-**Key Techniques:** Cryo-EM structure determination · Protein engineering · Electrophysiology · Ligand screening
+</div>
 
 {% include section.html %}
 
