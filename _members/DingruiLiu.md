@@ -2,7 +2,6 @@
 name: Liu Dingrui
 image: images/dingrui.jpg
 role: student
-affiliation: Shenzhen medical acedamy of research and translation 
 
 links:
   home-page: https://liudingrui9.github.io/Dingrui/
