@@ -2,7 +2,6 @@
 name: Luo Zhiteng
 image: images/zhiteng.jpg
 role: postdoc
-affiliation: Shenzhen medical acedamy of research and translation 
 
 
 ---
