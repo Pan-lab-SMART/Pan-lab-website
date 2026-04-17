@@ -2,7 +2,6 @@
 name: Pan Xiaojing
 image: images/xiaojing.jpg
 role: principal-investigator
-affiliation: Shenzhen medical academy of research and translation 
 
 links:
   home-page: https://smart.org.cn/faculty/panxiaojing
