@@ -2,7 +2,6 @@
 name: Chen Jiawei 
 image: images/jiawei.jpg
 role: student
-affiliation: Shenzhen medical acedamy of research and translation 
 
 ---
 
